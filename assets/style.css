@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  #header{
+    background-color: green;
+    height: 500px;
+    width: 100%;
+  }
+  #nav{
+    display: flex;
+    background-color: gray;
+    height: 50px;
+    width: 100%;
+  }
+  #nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 1%;
+    float: right;
+  }
+
+  #nav a:hover{
+    color: black;
+  }
+  #nav h1{
+    margin-right: 45%;
+    margin-left: 5%;
+  }
+
+  #nav h1:hover{
+    color: white;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+  }
+  .hero-banner{
+    float: right;
+    margin-top: 25%;
+    margin-right: 1%;
+    height: 70px;
+    width: 350px;
+    text-align: center;
+    background-color: blue;
+    font-size: large;
+    border: 2px solid white;
+    box-shadow: 2px 5px white;
+  }
+#about{
+    height: 500px;
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+  }
+  #about .div{
+  border-left: 5px solid black;
+  height: 100%;
+  width: 70%;
+  }
+
+  #above:hover{
+    border-left: 5px solid gray;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+  }
+
+
+  #about h2{
+    width: 30%;
+    text-align: center;
+  }
+
+  #work{
+    height: 100%;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    margin-top: 2%;
+  }
+  #work .div2{ 
+    border-left: 5px solid black;
+
+  height: 100%;
+  width: 70%;
+  }
+
+
+  #work h2{
+    width: 30%;
+    text-align: center;
+  }
+
+
+  .first-image{
+    height: 500px;
+    width:90%;
+    margin: auto;
+    background-image: url("laptop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    border: 5px solid lightblue;
+    transition: all ease-in-out 4s;
+  }
+
+  .first-image:hover{
+    filter: blur(1px);
+    cursor: pointer;
+    background-size: 110%;
+    transition: 1s;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    
+  }
+
+  .first-image h2{
+    float: right;
+    height: 50px;
+    width: 15%;
+    background-color: lightblue;
+    margin-top: 47%;
+
+  }
+
+.image-grid{
+    display: grid;
+   
+    grid-template-columns: auto auto;
+    height: 500px;
+    width: 100%;
+}
+
+.second-image{
+    background-image: url("cloud-computing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 98%;
+    height: 245px;
+    border: 5px solid lightblue;
+}
+.second-image:hover{
+  filter: blur(1px);
+  cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+.second-image h2{
+    float: right;
+    height: 50px;
+    width: 15%;
+    background-color: lightblue;
+    margin-top: 40%;
+  }
+.third-image{
+    background-image: url("cyber-defence.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 98%;
+    height: 245px;
+    border: 5px solid lightblue;
+}
+.third-image:hover{
+  filter: blur(1px);
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+}
+.third-image h2{
+    float: right;
+    height: 50px;
+    width: 15%;
+    background-color: lightblue;
+    margin-top: 44%;
+  }
+.fourth-image{
+    background-image: url("information-security.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 98%;
+    height: 245px;
+    border: 5px solid lightblue;
+}
+
+.fourth-image:hover{
+  filter: blur(1px);
+  cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+.fourth-image h2{
+    float: right;
+    height: 50px;
+    width: 50%;
+    background-color: lightblue;
+    margin-top: 38%;
+  }
+.fifth-image{
+    background-image: url("hack.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 98%;
+    height: 245px;
+    border: 5px solid lightblue;
+}
+
+.fifth-image:hover{
+  filter: blur(1px);
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+}
+.fifth-image h2{
+    float: right;
+    height: 50px;
+    width: 15%;
+    background-color: lightblue;
+    margin-top: 44%;
+  }
+
+#contact{
+    display: flex;
+    margin-top: 2%;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    background-color: gray;
+
+  }
+  #contact ul{
+    list-style: none;
+
+  }
+  #contact a{
+    text-decoration: none;
+    color: black;
+  }
+  #contact a:hover{
+    color: white;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+  }
+  #contact h2{
+    border-right:solid 5px black;
+    margin-right: 1%;
+    width: 30.5%;
+    text-align: center;
+  }
